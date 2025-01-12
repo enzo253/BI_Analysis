@@ -1,1 +1,1 @@
-# BI_Analysis
+This project explores the Sample Superstore dataset through SQL and exploratory data analysis (EDA). The goal is to uncover insights about customer behavior, product performance, and regional trends while leveraging SQL for data transformation and preparation. However, i have yet to finish this.
