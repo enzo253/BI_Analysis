@@ -121,6 +121,8 @@ CREATE TABLE IF NOT EXISTS Joint_Table (
 );
 ''')
 
+#populating tables with csv data
+
 customer_clean.to_sql('Customer', conn, if_exists='replace', index=False)
 
 addresses_clean.to_sql('Addresses', conn, if_exists='replace', index=False)
