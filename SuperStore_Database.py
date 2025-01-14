@@ -2,7 +2,7 @@ import pandas as pd
 import sqlite3
 
 # load csv
-csv = pd.read_csv("/users/enzowurtele/desktop/databases/sample-superstore.csv", encoding='latin1')
+csv = pd.read_csv("/users/enzowurtele/desktop/DATABASES/Sample-Superstore.csv", encoding='latin1')
 
 # Create DataFrames with proper column names
 customer = csv[['Customer ID', 'Customer Name', 'Segment']].rename(
